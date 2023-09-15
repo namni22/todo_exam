@@ -1,0 +1,40 @@
+.todo-list {
+  width: 700px;
+  margin: 100px auto;
+}
+.todo-list > li {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+.todo-list > li > div {
+  float: left;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.is-like {
+  width: 15%;
+}
+.is-like > span {
+  color: pink;
+  cursor: pointer;
+}
+.todo-title {
+  width: 70%;
+}
+.is-done {
+  width: 15%;
+  text-align: right;
+}
+.is-done > span {
+  color: lightseagreen;
+  cursor: pointer;
+}
+.is-done > .remove {
+  color: rgb(255, 108, 108);
+  margin-left: 10px;
+  cursor: pointer;
+}
+.done-text {
+  text-decoration: line-through;
+}
